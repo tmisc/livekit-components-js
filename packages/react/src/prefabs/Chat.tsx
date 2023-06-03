@@ -97,10 +97,10 @@ export function Chat({ messageFormatter, ...props }: ChatProps) {
           disabled={isSending}
           ref={inputRef}
           type="text"
-          placeholder="Enter a message..."
+          placeholder="请输入内容 ..."
         />
         <button type="submit" className="lk-button lk-chat-form-button" disabled={isSending}>
-          Send
+          发送
         </button>
       </form>
     </div>
