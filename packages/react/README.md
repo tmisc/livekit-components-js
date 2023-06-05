@@ -23,13 +23,13 @@ A LiveKit Components implementation in [React](https://reactjs.org/).
 ## Install
 
 ```bash
-yarn install @livekit/components-react
+yarn install fork-livekit-components-react
 ```
 
 ## Usage
 
 ```tsx
-import { LiveKitRoom } from '@livekit/components-react';
+import { LiveKitRoom } from 'fork-livekit-components-react';
 
 <LiveKitRoom token="<livekit-token>" serverUrl="<url-to-livekit-server>" connect={true} />;
 ```

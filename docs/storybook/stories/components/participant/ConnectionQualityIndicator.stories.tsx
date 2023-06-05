@@ -4,7 +4,7 @@ import { StoryObj } from '@storybook/react';
 import {
   ConnectionQualityIndicator,
   ConnectionQualityIndicatorProps,
-} from '@livekit/components-react';
+} from 'fork-livekit-components-react';
 import { MockParticipantContext } from '../../../.storybook/lk-decorators';
 import { ConnectionQuality } from 'livekit-client';
 

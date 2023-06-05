@@ -11,8 +11,8 @@
     "tsx:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@livekit/components-react": "~1.0.0",
-    "@livekit/components-styles": "~1.0.0",
+    "fork-livekit-components-react": "~1.0.0",
+    "fork-livekit-components-styles": "~1.0.0",
     "livekit-client": "^1.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -1,4 +1,4 @@
-import { setupClearPinButton } from '@livekit/components-core';
+import { setupClearPinButton } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { mergeProps } from '../../utils';
 import { useLayoutContext } from '../../context';

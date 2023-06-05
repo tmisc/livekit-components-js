@@ -13,9 +13,9 @@ body:
       label: Select which package(s) are affected
       multiple: true
       options:
-        - \@livekit/components-styles
-        - \@livekit/components-core
-        - \@livekit/components-react
+        - \fork-livekit-components-styles
+        - \fork-livekit-components-core
+        - \fork-livekit-components-react
         - examples
     validations:
       required: true

@@ -3,7 +3,7 @@ import {
   ParticipantName,
   Participants,
   ParticipantTile,
-} from '@livekit/components-react';
+} from 'fork-livekit-components-react';
 
 const MyLiveKitApp = () => {
   const serverUrl = '';

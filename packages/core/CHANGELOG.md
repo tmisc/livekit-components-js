@@ -1,4 +1,4 @@
-# @livekit/components-core
+# fork-livekit-components-core
 
 ## 0.6.6
 

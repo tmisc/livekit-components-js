@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { mergeProps } from '../../utils';
-import { setupTrackMutedIndicator } from '@livekit/components-core';
+import { setupTrackMutedIndicator } from 'fork-livekit-components-core';
 import type { Participant, Track } from 'livekit-client';
 import { useEnsureParticipant } from '../../context';
 import { getSourceIcon } from '../../assets/icons/util';

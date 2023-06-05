@@ -59,7 +59,7 @@ ${def.tags?.example ? def.tags.example : 'No example yet.'}
 }
 
 const addImportExample = (displayName: string) =>
-  '```tsx\n' + 'import { ' + displayName + " } from '@livekit/components-react'\n```";
+  '```tsx\n' + 'import { ' + displayName + " } from 'fork-livekit-components-react'\n```";
 
 const splitCamelCase = (camelCaseStr: string) =>
   camelCaseStr.replace(/([a-z0-9])([A-Z])/g, '$1 $2');

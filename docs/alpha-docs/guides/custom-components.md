@@ -32,7 +32,7 @@ This can be easily achieved with a custom LiveKit component:
 
 ```tsx
 // 1️⃣ Import the react hook.
-import { useConnectionQualityIndicator } from '@livekit/components-react';
+import { useConnectionQualityIndicator } from 'fork-livekit-components-react';
 
 // 2️⃣ Define a custom React component.
 export function CustomConnectionQualityIndicator(props: HTMLAttributes<HTMLSpanElement>) {

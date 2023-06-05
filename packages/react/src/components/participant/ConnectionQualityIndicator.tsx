@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { setupConnectionQualityIndicator } from '@livekit/components-core';
+import { setupConnectionQualityIndicator } from 'fork-livekit-components-core';
 import { useEnsureParticipant } from '../../context';
 import type { Participant } from 'livekit-client';
 import { ConnectionQuality } from 'livekit-client';

@@ -1,4 +1,4 @@
-import { setupChatToggle } from '@livekit/components-core';
+import { setupChatToggle } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { useLayoutContext } from '../../context';
 import { mergeProps } from '../../utils';

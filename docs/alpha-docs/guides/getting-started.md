@@ -7,11 +7,11 @@
 Use your favorite package manager to install the React LiveKit Components package.
 
 ```bash
-npm install @livekit/components-react
+npm install fork-livekit-components-react
 # or
-yarn add @livekit/components-react
+yarn add fork-livekit-components-react
 # or
-pnpm add @livekit/components-react
+pnpm add fork-livekit-components-react
 ```
 
 ## Prepare the backend server
@@ -44,7 +44,7 @@ export const MyFirstLiveKitApp = () => {
 Let's start by importing the `LiveKitRoom` component. `LiveKitRoom` is the root for almost all other components that we provide. This means that all other components are going to be nested inside this component. Under the hood it will provide the Room context that all the child components will use. This means that you don't have to pass props down the component tree.
 
 ```tsx
-import { LiveKitRoom } from '@livekit/components-react';
+import { LiveKitRoom } from 'fork-livekit-components-react';
 
 const MyFirstLiveKitApp = () => {
   const serverUrl = '';

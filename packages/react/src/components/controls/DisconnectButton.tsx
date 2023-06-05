@@ -1,5 +1,5 @@
 import { ConnectionState } from 'livekit-client';
-import { setupDisconnectButton } from '@livekit/components-core';
+import { setupDisconnectButton } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { useRoomContext } from '../../context';
 import { useConnectionState } from '../ConnectionState';

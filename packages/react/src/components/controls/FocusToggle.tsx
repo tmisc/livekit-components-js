@@ -1,4 +1,4 @@
-import { isTrackReferencePinned, setupFocusToggle } from '@livekit/components-core';
+import { isTrackReferencePinned, setupFocusToggle } from 'fork-livekit-components-core';
 import type { Participant, Track } from 'livekit-client';
 import * as React from 'react';
 import { LayoutContext, useEnsureParticipant, useMaybeLayoutContext } from '../../context';

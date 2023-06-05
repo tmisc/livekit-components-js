@@ -1,4 +1,4 @@
-import { LiveKitRoom } from '@livekit/components-react';
+import { LiveKitRoom } from 'fork-livekit-components-react';
 
 const MyFirstLiveKitApp = () => {
   const serverUrl = '';

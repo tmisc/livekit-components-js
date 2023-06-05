@@ -1,4 +1,4 @@
-import { roomInfoObserver } from '@livekit/components-core';
+import { roomInfoObserver } from 'fork-livekit-components-core';
 import type { Room } from 'livekit-client';
 import * as React from 'react';
 

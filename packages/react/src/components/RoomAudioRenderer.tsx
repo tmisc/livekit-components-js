@@ -1,4 +1,4 @@
-import { isLocal } from '@livekit/components-core';
+import { isLocal } from 'fork-livekit-components-core';
 import { Track } from 'livekit-client';
 import * as React from 'react';
 import { useTracks } from '../hooks';

@@ -4,7 +4,7 @@ import * as React from 'react';
 import { MediaDeviceMenu } from './MediaDeviceMenu';
 import { useMediaDevices } from '../components/controls/MediaDeviceSelect';
 import { TrackToggle } from '../components/controls/TrackToggle';
-import { log } from '@livekit/components-core';
+import { log } from 'fork-livekit-components-core';
 import { ParticipantPlaceholder } from '../assets/images';
 
 /** @public */

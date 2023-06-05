@@ -55,12 +55,12 @@ Because most of the components are merely wrappers around standard HTML-Elements
 
 On top of that we provide a handful of pre-defined css variables to easily theme LiveKit Components to your needs.
 
-To add styling from our @livekit/components-styles package:
+To add styling from our fork-livekit-components-styles package:
 
 Import all styles including the default theme
 
 ```ts
-import '@livekit/components-styles';
+import 'fork-livekit-components-styles';
 ```
 
 And add a theme data attribute to the `<LiveKitRoom/>` or any HTML container, to gain access to default LiveKit styles.
@@ -75,22 +75,22 @@ The component we offer does not fit your requirements? We have the solution for 
 
 ## Get started
 
-The best way to get started is to use the [`@livekit/components-react`](/packages/react/) package and install it.
+The best way to get started is to use the [`fork-livekit-components-react`](/packages/react/) package and install it.
 
 ```bash
-yarn add @livekit/components-react livekit-client
+yarn add fork-livekit-components-react livekit-client
 ```
 
 or
 
 ```bash
-npm install @livekit/components-react livekit-client
+npm install fork-livekit-components-react livekit-client
 ```
 
 Creating a full fledged video conference is as easy as
 
 ```tsx
-import { LiveKitRoom, VideoConference } from '@livekit/components-react';
+import { LiveKitRoom, VideoConference } from 'fork-livekit-components-react';
 
 export function App() {
   return (
@@ -111,7 +111,7 @@ We also have a fully featured video conferencing application built on top of Liv
 
 ## FAQ
 
-### Why is there a @livekit/components-core package?
+### Why is there a fork-livekit-components-core package?
 
 By abstracting most of the state handling logic into a common core we wanted to make sure that other framework implementations can be created with minimal code duplication. We chose observables as the main data structure for this core as its concepts translate really well to for example React's hooks, solid's signals, Svelte's stores, Vue's composables, and angular loves observables out of the box.
 

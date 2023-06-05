@@ -1,5 +1,5 @@
 import React, { HTMLAttributes } from 'react';
-import { ParticipantContext, useLocalParticipant } from '@livekit/components-react';
+import { ParticipantContext, useLocalParticipant } from 'fork-livekit-components-react';
 import { Decorator } from '@storybook/react';
 
 /**

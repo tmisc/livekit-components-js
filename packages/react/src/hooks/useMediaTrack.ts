@@ -1,4 +1,4 @@
-import type { VideoSource, AudioSource } from '@livekit/components-core';
+import type { VideoSource, AudioSource } from 'fork-livekit-components-core';
 import type { Participant } from 'livekit-client';
 import { useEnsureParticipant } from '../context/participant-context';
 import { useMediaTrackBySourceOrName } from './useMediaTrackBySourceOrName';

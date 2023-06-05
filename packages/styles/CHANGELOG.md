@@ -1,4 +1,4 @@
-# @livekit/components-styles
+# fork-livekit-components-styles
 
 ## 1.0.0
 

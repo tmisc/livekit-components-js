@@ -1,5 +1,5 @@
-import type { ChatMessage, ReceivedChatMessage } from '@livekit/components-core';
-import { setupChat } from '@livekit/components-core';
+import type { ChatMessage, ReceivedChatMessage } from 'fork-livekit-components-core';
+import { setupChat } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { useRoomContext } from '../context';
 import { useObservableState } from '../hooks/internal/useObservableState';

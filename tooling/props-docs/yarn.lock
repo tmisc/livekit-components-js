@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@livekit/components-core@0.1.7":
+"fork-livekit-components-core@0.1.7":
   version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@livekit/components-core/-/components-core-0.1.7.tgz#40404e112bb3cd4772cc26e55e309cd072044e77"
+  resolved "https://registry.yarnpkg.com/fork-livekit-components-core/-/components-core-0.1.7.tgz#40404e112bb3cd4772cc26e55e309cd072044e77"
   integrity sha512-tmPIhOMYLqy7WR3M22x8c1PH5iZLWuSMhwuJFY9zUAMrO3oXyeA5Ig7e9W1sZRqU3QVRIFiyELcH2V9m2Zs7Dw==
   dependencies:
     rxjs "^7.5.6"
 
-"@livekit/components-react@workspace:*":
+"fork-livekit-components-react@workspace:*":
   version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@livekit/components-react/-/components-react-0.1.9.tgz#de40f0cd52e95e04834d9795de7c9d89d0c710cb"
+  resolved "https://registry.yarnpkg.com/fork-livekit-components-react/-/components-react-0.1.9.tgz#de40f0cd52e95e04834d9795de7c9d89d0c710cb"
   integrity sha512-OET7OfnzrvsRfiApEh9X+qnqCw07rWYqmi7dBCkLFqUJHjUJxPSKZ3ExZTxusMxcSeNJG7OUtS5mSFG0BgftjA==
   dependencies:
-    "@livekit/components-core" "0.1.7"
+    "fork-livekit-components-core" "0.1.7"
 
 "@types/glob@^7.1.3":
   version "7.2.0"

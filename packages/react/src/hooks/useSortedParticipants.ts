@@ -1,4 +1,4 @@
-import { sortParticipants } from '@livekit/components-core';
+import { sortParticipants } from 'fork-livekit-components-core';
 import type { Participant } from 'livekit-client';
 import * as React from 'react';
 import { useSpeakingParticipants } from './useSpeakingParticipants';

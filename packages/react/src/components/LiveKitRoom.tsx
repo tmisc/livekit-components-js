@@ -1,4 +1,4 @@
-import { log, setupLiveKitRoom } from '@livekit/components-core';
+import { log, setupLiveKitRoom } from 'fork-livekit-components-core';
 import type {
   AudioCaptureOptions,
   RoomConnectOptions,

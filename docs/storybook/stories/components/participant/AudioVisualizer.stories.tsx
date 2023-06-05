@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StoryObj } from '@storybook/react';
 
-import { AudioVisualizer, AudioVisualizerProps } from '@livekit/components-react';
+import { AudioVisualizer, AudioVisualizerProps } from 'fork-livekit-components-react';
 import { LkParticipantContext, LkRoomContext } from '../../../.storybook/lk-decorators';
 
 export default {

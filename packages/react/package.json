@@ -1,5 +1,5 @@
 {
-  "name": "live-components-react",
+  "name": "fork-livekit-components-react",
   "version": "1.0.3",
   "license": "Apache-2.0",
   "author": "LiveKit",
@@ -47,7 +47,7 @@
   },
   "typings": "dist/index.d.ts",
   "dependencies": {
-    "live-components-core": "0.6.6",
+    "fork-livekit-components-core": "0.6.6",
     "@react-hook/latest": "^1.0.3",
     "clsx": "^1.2.1"
   },

@@ -1,4 +1,4 @@
-import { AudioConference, LiveKitRoom, useToken } from '@livekit/components-react';
+import { AudioConference, LiveKitRoom, useToken } from 'fork-livekit-components-react';
 import type { NextPage } from 'next';
 
 const AudioExample: NextPage = () => {

@@ -1,7 +1,7 @@
-import { computeMenuPosition, wasClickOutside } from '@livekit/components-core';
+import { computeMenuPosition, wasClickOutside } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { MediaDeviceSelect } from '../components/controls/MediaDeviceSelect';
-import { log } from '@livekit/components-core';
+import { log } from 'fork-livekit-components-core';
 
 /** @public */
 export interface MediaDeviceMenuProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

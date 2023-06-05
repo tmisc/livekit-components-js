@@ -1,5 +1,5 @@
-import type { ReceivedDataMessage } from '@livekit/components-core';
-import { setupDataMessageHandler } from '@livekit/components-core';
+import type { ReceivedDataMessage } from 'fork-livekit-components-core';
+import { setupDataMessageHandler } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { useRoomContext } from '../context';
 import { useObservableState } from './internal';

@@ -1,4 +1,4 @@
-import { participantInfoObserver, setupParticipantName } from '@livekit/components-core';
+import { participantInfoObserver, setupParticipantName } from 'fork-livekit-components-core';
 import type { Participant } from 'livekit-client';
 import * as React from 'react';
 import { useEnsureParticipant } from '../../context';

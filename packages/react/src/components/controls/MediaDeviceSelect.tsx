@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useMaybeRoomContext } from '../../context';
-import { setupDeviceSelector, createMediaDeviceObserver } from '@livekit/components-core';
+import { setupDeviceSelector, createMediaDeviceObserver } from 'fork-livekit-components-core';
 import { mergeProps } from '../../utils';
 import type { Room } from 'livekit-client';
 import { useObservableState } from '../../hooks/internal/useObservableState';

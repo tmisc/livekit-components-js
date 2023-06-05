@@ -1,8 +1,8 @@
 import * as React from 'react';
 import type { Participant, TrackPublication } from 'livekit-client';
 import { Track } from 'livekit-client';
-import type { ParticipantClickEvent, TrackReferenceOrPlaceholder } from '@livekit/components-core';
-import { isParticipantSourcePinned, setupParticipantTile } from '@livekit/components-core';
+import type { ParticipantClickEvent, TrackReferenceOrPlaceholder } from 'fork-livekit-components-core';
+import { isParticipantSourcePinned, setupParticipantTile } from 'fork-livekit-components-core';
 import { ConnectionQualityIndicator } from './ConnectionQualityIndicator';
 import { ParticipantName } from './ParticipantName';
 import { TrackMutedIndicator } from './TrackMutedIndicator';

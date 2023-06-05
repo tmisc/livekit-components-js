@@ -1,11 +1,11 @@
-# @livekit/components-react
+# fork-livekit-components-react
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [[`73df060`](https://github.com/livekit/components-js/commit/73df060a5e72fe3526c7dec0dfc0355f25ef42a9)]:
-  - @livekit/components-core@0.6.6
+  - fork-livekit-components-core@0.6.6
 
 ## 1.0.1
 
@@ -32,7 +32,7 @@
 - Fix some imports - [#461](https://github.com/livekit/components-js/pull/461) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`0bbacce`](https://github.com/livekit/components-js/commit/0bbaccea5e964f3d38925a49223b914a3e2076fe)]:
-  - @livekit/components-core@0.6.5
+  - fork-livekit-components-core@0.6.5
 
 ## 0.8.1
 
@@ -53,7 +53,7 @@
 - fix: remove pin when screen share ended - [#440](https://github.com/livekit/components-js/pull/440) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`f61f2b2`](https://github.com/livekit/components-js/commit/f61f2b2e5f709335c59c58010a3debb761be0ca9)]:
-  - @livekit/components-core@0.6.4
+  - fork-livekit-components-core@0.6.4
 
 ## 0.7.3
 
@@ -62,7 +62,7 @@
 - Remove filter from `ParticipantLoop` and add option to pass room to `useParticipants`, `useLocalParticipant` and `useRemoteParticipants`. - [#435](https://github.com/livekit/components-js/pull/435) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`fe92d54`](https://github.com/livekit/components-js/commit/fe92d5464eca72da8d12f021c2b35c955855f3af)]:
-  - @livekit/components-core@0.6.3
+  - fork-livekit-components-core@0.6.3
 
 ## 0.7.2
 
@@ -75,7 +75,7 @@
 - Fix the carousel component for iOS and fix a possible unstable UI condition. - [#422](https://github.com/livekit/components-js/pull/422) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`1f14b38`](https://github.com/livekit/components-js/commit/1f14b386d676cf3548117f781129e467ab67c48f)]:
-  - @livekit/components-core@0.6.2
+  - fork-livekit-components-core@0.6.2
 
 ## 0.7.1
 
@@ -94,7 +94,7 @@
 - Chat revision: add property to hide chat metadata in a ChatEntry and update ChatEntry styling. - [#397](https://github.com/livekit/components-js/pull/397) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`e786dc9`](https://github.com/livekit/components-js/commit/e786dc98f571f125794b27305bf89cbf5ee30c63), [`5992c42`](https://github.com/livekit/components-js/commit/5992c429371a5516e724c59b80584df8badd2e95)]:
-  - @livekit/components-core@0.6.1
+  - fork-livekit-components-core@0.6.1
 
 ## 0.7.0
 
@@ -111,7 +111,7 @@
 - Fix: Prevent pagination from getting stuck on a page that no longer exists #385 - [#385](https://github.com/livekit/components-js/pull/385) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`f0602fc`](https://github.com/livekit/components-js/commit/f0602fcf06eca39f0ac9b8bb4612c63328d9da4d)]:
-  - @livekit/components-core@0.6.0
+  - fork-livekit-components-core@0.6.0
 
 ## 0.6.2
 
@@ -126,7 +126,7 @@
 - Enable trackReferences to be used on audio/video track - [#374](https://github.com/livekit/components-js/pull/374) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`a423d48`](https://github.com/livekit/components-js/commit/a423d483ee1d92d658a04c4c9ff2142aa388d2d0)]:
-  - @livekit/components-core@0.5.1
+  - fork-livekit-components-core@0.5.1
 
 ## 0.6.0
 
@@ -151,7 +151,7 @@
 - Add capture options to toggle - [#356](https://github.com/livekit/components-js/pull/356) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`a011fdd`](https://github.com/livekit/components-js/commit/a011fdda0550cb4ac9e380022ddb3cbb0c57dc7d), [`9accef1`](https://github.com/livekit/components-js/commit/9accef114bf77c7fc7ac2b9f711cd38256dc8bd7), [`ec2c7a3`](https://github.com/livekit/components-js/commit/ec2c7a3ac33f58334d16d0c8241c475710e80f2b), [`493d49c`](https://github.com/livekit/components-js/commit/493d49cad3b7286ba6ffc9b03f2ecf0a28d86702), [`9cf77c6`](https://github.com/livekit/components-js/commit/9cf77c641f425d18a4edefbbf27602119e6fe17f), [`f5707d0`](https://github.com/livekit/components-js/commit/f5707d016225abd2520b20221b30b6dd834511e7)]:
-  - @livekit/components-core@0.5.0
+  - fork-livekit-components-core@0.5.0
 
 ## 0.5.0
 
@@ -178,14 +178,14 @@
 - Rework useDataChannel API - [#340](https://github.com/livekit/components-js/pull/340) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`2ff6f78`](https://github.com/livekit/components-js/commit/2ff6f78edbc186cb63d353ae2ae688d3317976c8), [`53aafaa`](https://github.com/livekit/components-js/commit/53aafaaba03c6cfe403555e3b01db374b7bcd14c), [`bed7516`](https://github.com/livekit/components-js/commit/bed7516196df8d59d7b464ca524a831a7d3b6351)]:
-  - @livekit/components-core@0.4.0
+  - fork-livekit-components-core@0.4.0
 
 ## 0.4.1
 
 ### Patch Changes
 
 - Updated dependencies [[`369db26`](https://github.com/livekit/components-js/commit/369db26143c06d449d9c698dd6b82ba9a7f29122), [`50edb66`](https://github.com/livekit/components-js/commit/50edb6698de4f70a04b2d6b75f6ef566da3fa6fb)]:
-  - @livekit/components-core@0.3.1
+  - fork-livekit-components-core@0.3.1
 
 ## 0.4.0
 
@@ -208,7 +208,7 @@
 - Fix infinite render loop in custom participant hooks. - [#315](https://github.com/livekit/components-js/pull/315) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`08b6b6a`](https://github.com/livekit/components-js/commit/08b6b6a50ce371f5103b56d33f221c5038e98ca7), [`dc65553`](https://github.com/livekit/components-js/commit/dc65553508783665542ddc9a808c4dcee6ee3804), [`37eff03`](https://github.com/livekit/components-js/commit/37eff03c87ff8087c932826ebb03a7db1292a05d)]:
-  - @livekit/components-core@0.3.0
+  - fork-livekit-components-core@0.3.0
 
 ## 0.3.0
 
@@ -225,7 +225,7 @@
 - Add useRemoteParticipant hook - [#295](https://github.com/livekit/components-js/pull/295) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`56ee42f`](https://github.com/livekit/components-js/commit/56ee42f153e1e85baa5272f309ba24dd6fb7634b)]:
-  - @livekit/components-core@0.2.7
+  - fork-livekit-components-core@0.2.7
 
 ## 0.2.6
 
@@ -242,7 +242,7 @@
 - Add useParticipantPermissions hook additionally to useLocalParticipantPermissions - [#292](https://github.com/livekit/components-js/pull/292) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`77f2b34`](https://github.com/livekit/components-js/commit/77f2b34f7dae248a58963a01c7023b106749f4ec), [`317d50d`](https://github.com/livekit/components-js/commit/317d50db678f92ff9bc04b76757e7708a3bfa2ff), [`c5b0aca`](https://github.com/livekit/components-js/commit/c5b0aca7dd85ee0b51c43113a72fd5861f0fb4a7)]:
-  - @livekit/components-core@0.2.6
+  - fork-livekit-components-core@0.2.6
 
 ## 0.2.5
 
@@ -253,14 +253,14 @@
 - Add useDataChannelMessages hook and generalise core data channel usage - [#277](https://github.com/livekit/components-js/pull/277) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`c023b8a`](https://github.com/livekit/components-js/commit/c023b8aa65b54567af082a1e2b87ea18f426e955), [`7e13007`](https://github.com/livekit/components-js/commit/7e130075f7b83176a46bdb366c280275785d4fa3)]:
-  - @livekit/components-core@0.2.5
+  - fork-livekit-components-core@0.2.5
 
 ## 0.2.4
 
 ### Patch Changes
 
 - Updated dependencies [[`480808a`](https://github.com/livekit/components-js/commit/480808a6d024391f474b0f3bdb997e49259a3860), [`cb9e2b6`](https://github.com/livekit/components-js/commit/cb9e2b6595514f35145dc8e9124324531a3979e0)]:
-  - @livekit/components-core@0.2.4
+  - fork-livekit-components-core@0.2.4
 
 ## 0.2.3
 
@@ -269,7 +269,7 @@
 - Mark packages as side-effect free - [#268](https://github.com/livekit/components-js/pull/268) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`4d742bf`](https://github.com/livekit/components-js/commit/4d742bf5465bae7cc39215150b78c5f3d2ba3283)]:
-  - @livekit/components-core@0.2.3
+  - fork-livekit-components-core@0.2.3
 
 ## 0.2.2
 
@@ -284,7 +284,7 @@
 - Replace floating-ui/react with floating-ui/dom and fix the position problem with the MediaDeviceMenu component. - [#266](https://github.com/livekit/components-js/pull/266) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`8b1e826`](https://github.com/livekit/components-js/commit/8b1e826a08fc1fa45993108c82edc8e68684b92c), [`39be24c`](https://github.com/livekit/components-js/commit/39be24c17b3c3b6a0f15efb28a622766abdf2fa2)]:
-  - @livekit/components-core@0.2.2
+  - fork-livekit-components-core@0.2.2
 
 ## 0.2.1
 
@@ -295,7 +295,7 @@
 - Remove ResizeObserver polyfill dependency - [#254](https://github.com/livekit/components-js/pull/254) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`1144b2c`](https://github.com/livekit/components-js/commit/1144b2c5c762ebbc3ff919114e18f8a11f52cf46)]:
-  - @livekit/components-core@0.2.1
+  - fork-livekit-components-core@0.2.1
 
 ## 0.2.0
 
@@ -310,7 +310,7 @@
 - Update dependencies - [#253](https://github.com/livekit/components-js/pull/253) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`bcd4fdb`](https://github.com/livekit/components-js/commit/bcd4fdb886d48018309dacd4ea8e1e554b758aaa), [`1a7a098`](https://github.com/livekit/components-js/commit/1a7a09863df1fa79b15cfa1716213c3d2da0ac0d)]:
-  - @livekit/components-core@0.2.0
+  - fork-livekit-components-core@0.2.0
 
 ## 0.1.20
 
@@ -327,7 +327,7 @@
 - Monorepo-wide package updates and cleanups. - [#235](https://github.com/livekit/components-js/pull/235) ([@Ocupe](https://github.com/Ocupe))
 
 - Updated dependencies [[`1e53f58`](https://github.com/livekit/components-js/commit/1e53f58901c56224bc1a060210baf5d5beb9d17f), [`6a13879`](https://github.com/livekit/components-js/commit/6a13879d8a7092aa566f500f43e2e2057a3dcd8a)]:
-  - @livekit/components-core@0.1.13
+  - fork-livekit-components-core@0.1.13
 
 ## 0.1.18
 
@@ -348,14 +348,14 @@
 ### Patch Changes
 
 - Updated dependencies [[`5977a9c`](https://github.com/livekit/components-js/commit/5977a9c881c7b520bad0209cbe9e3182d3a1ffbe)]:
-  - @livekit/components-core@0.1.12
+  - fork-livekit-components-core@0.1.12
 
 ## 0.1.15
 
 ### Patch Changes
 
 - Updated dependencies [[`f5984ef`](https://github.com/livekit/components-js/commit/f5984efa3a53eb9bcc389e644e0b91695f17a9d7)]:
-  - @livekit/components-core@0.1.11
+  - fork-livekit-components-core@0.1.11
 
 ## 0.1.14
 
@@ -404,14 +404,14 @@
 - Add error callback to prejoin prefab - [#196](https://github.com/livekit/components-js/pull/196) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`fdfbfc7`](https://github.com/livekit/components-js/commit/fdfbfc75a20741f8cc17c85ec045f08663b90000), [`e3d48c3`](https://github.com/livekit/components-js/commit/e3d48c31c7fd3c7a6d12d854fa08f634de0f0d6b), [`91b9c5d`](https://github.com/livekit/components-js/commit/91b9c5d473446c3ea0e3ae37a20302a5a5f2f791), [`1c3942a`](https://github.com/livekit/components-js/commit/1c3942ab924d720aa86fc18e4f1d30f7dcf581e3), [`fda5c66`](https://github.com/livekit/components-js/commit/fda5c66c4559f90851c8634bfa218dd707a1caa4), [`7af268b`](https://github.com/livekit/components-js/commit/7af268b3b267d93b337b0c5942e674cd8f8e78dc), [`25064a5`](https://github.com/livekit/components-js/commit/25064a5d1a1fb86eeed0d77de8e3f516e1aa3840), [`7a14944`](https://github.com/livekit/components-js/commit/7a1494401d4230ea61697bf4ada789a49446bf90), [`9707652`](https://github.com/livekit/components-js/commit/97076529a9a278007369d7bf16c0a62b6057797d)]:
-  - @livekit/components-core@0.1.10
+  - fork-livekit-components-core@0.1.10
 
 ## 0.1.12
 
 ### Patch Changes
 
 - Updated dependencies [[`fa3cf1c`](https://github.com/livekit/components/commit/fa3cf1cf7ff74acff5d6e4629faf46218c411432)]:
-  - @livekit/components-core@0.1.9
+  - fork-livekit-components-core@0.1.9
 
 ## 0.1.11
 
@@ -426,7 +426,7 @@
 - Prepare for dev preview - [`f2c7955`](https://github.com/livekit/components/commit/f2c79559e3ca38b2f783c2e7e2c4a952436db88b) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`f2c7955`](https://github.com/livekit/components/commit/f2c79559e3ca38b2f783c2e7e2c4a952436db88b)]:
-  - @livekit/components-core@0.1.8
+  - fork-livekit-components-core@0.1.8
 
 ## 0.1.9
 
@@ -443,7 +443,7 @@
 - bundle core package - [`324be93`](https://github.com/livekit/components/commit/324be930e9e33afb1c00d765a734c8bb2b53bf8e) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`622b14c`](https://github.com/livekit/components/commit/622b14c4eff002d9ae6de776099284ec0581f7ed), [`725b995`](https://github.com/livekit/components/commit/725b9950b71fa3b633a24c981152f818cd05434c), [`324be93`](https://github.com/livekit/components/commit/324be930e9e33afb1c00d765a734c8bb2b53bf8e)]:
-  - @livekit/components-core@0.1.7
+  - fork-livekit-components-core@0.1.7
 
 ## 0.1.7
 
@@ -452,7 +452,7 @@
 - Better Bundling - [#76](https://github.com/livekit/components/pull/76) ([@lukasIO](https://github.com/lukasIO))
 
 - Updated dependencies [[`fb22bc8`](https://github.com/livekit/components/commit/fb22bc8c4f71110f15f79888dc3e768f9cd7870a)]:
-  - @livekit/components-core@0.1.6
+  - fork-livekit-components-core@0.1.6
 
 ## 0.1.6
 
@@ -463,14 +463,14 @@
 - dont use nested folder exports
 
 - Updated dependencies []:
-  - @livekit/components-core@0.1.5
+  - fork-livekit-components-core@0.1.5
 
 ## 0.1.5
 
 ### Patch Changes
 
 - Updated dependencies [[`5d2bd45`](https://github.com/livekit/components/commit/5d2bd453411870786b2f7ccdc22b951a3a058ff6)]:
-  - @livekit/components-core@0.1.4
+  - fork-livekit-components-core@0.1.4
 
 ## 0.1.4
 
@@ -479,7 +479,7 @@
 - Bundle packages ([`8339933`](https://github.com/livekit/components/commit/83399336e03908751c766e194e628a5f210dfe3a))
 
 - Updated dependencies [[`8339933`](https://github.com/livekit/components/commit/83399336e03908751c766e194e628a5f210dfe3a)]:
-  - @livekit/components-core@0.1.3
+  - fork-livekit-components-core@0.1.3
 
 ## 0.1.3
 
@@ -494,7 +494,7 @@
 - update libs ([`e2c731d`](https://github.com/livekit/components/commit/e2c731d5f15f410680deaa1ffc389a02c6c9b36c))
 
 - Updated dependencies [[`e2c731d`](https://github.com/livekit/components/commit/e2c731d5f15f410680deaa1ffc389a02c6c9b36c)]:
-  - @livekit/components-core@0.1.2
+  - fork-livekit-components-core@0.1.2
 
 ## 0.1.1
 
@@ -503,4 +503,4 @@
 - Add a basic chat component ([#45](https://github.com/livekit/components/pull/45))
 
 - Updated dependencies [[`08857da`](https://github.com/livekit/components/commit/08857dab44d0c9c3434dffbff13cb02df1f5784e), [`4c67a8c`](https://github.com/livekit/components/commit/4c67a8c395efa1118aad4cbd71d7c7d0c9904111)]:
-  - @livekit/components-core@0.1.1
+  - fork-livekit-components-core@0.1.1

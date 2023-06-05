@@ -1,5 +1,5 @@
-import type { CaptureOptionsBySource, ToggleSource } from '@livekit/components-core';
-import { log, setupManualToggle, setupMediaToggle } from '@livekit/components-core';
+import type { CaptureOptionsBySource, ToggleSource } from 'fork-livekit-components-core';
+import { log, setupManualToggle, setupMediaToggle } from 'fork-livekit-components-core';
 import * as React from 'react';
 import { mergeProps } from '../../mergeProps';
 import { useMaybeRoomContext } from '../../context';

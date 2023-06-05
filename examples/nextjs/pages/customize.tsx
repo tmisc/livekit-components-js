@@ -10,13 +10,13 @@ import {
   GridLayout,
   useTracks,
   TrackContext,
-} from '@livekit/components-react';
+} from 'fork-livekit-components-react';
 import { ConnectionQuality, Room, Track } from 'livekit-client';
 import styles from '../styles/Simple.module.css';
 import myStyles from '../styles/Customize.module.css';
 import type { NextPage } from 'next';
 import { HTMLAttributes, useState } from 'react';
-import { isTrackReference } from '@livekit/components-core';
+import { isTrackReference } from 'fork-livekit-components-core';
 
 const CustomizeExample: NextPage = () => {
   const params = typeof window !== 'undefined' ? new URLSearchParams(location.search) : null;

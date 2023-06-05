@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StoryObj } from '@storybook/react';
 
-import { RoomName, RoomNameProps } from '@livekit/components-react';
+import { RoomName, RoomNameProps } from 'fork-livekit-components-react';
 import { LkRoomContext } from '../../.storybook/lk-decorators';
 
 export default {

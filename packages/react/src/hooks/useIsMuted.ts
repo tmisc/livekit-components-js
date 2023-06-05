@@ -1,4 +1,4 @@
-import { mutedObserver } from '@livekit/components-core';
+import { mutedObserver } from 'fork-livekit-components-core';
 import type { Participant, Track } from 'livekit-client';
 import * as React from 'react';
 import { useEnsureParticipant } from '../context';

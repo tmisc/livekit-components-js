@@ -1,6 +1,6 @@
-import type { TrackIdentifier } from '@livekit/components-core';
-import { isTrackReference } from '@livekit/components-core';
-import { setupMediaTrack, log, isLocal, getTrackByIdentifier } from '@livekit/components-core';
+import type { TrackIdentifier } from 'fork-livekit-components-core';
+import { isTrackReference } from 'fork-livekit-components-core';
+import { setupMediaTrack, log, isLocal, getTrackByIdentifier } from 'fork-livekit-components-core';
 import { Track } from 'livekit-client';
 import * as React from 'react';
 import { mergeProps } from '../utils';

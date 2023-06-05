@@ -8,7 +8,7 @@ import {
   TrackContext,
   useToken,
   useTracks,
-} from '@livekit/components-react';
+} from 'fork-livekit-components-react';
 import { Track } from 'livekit-client';
 import type { NextPage } from 'next';
 import { useState } from 'react';

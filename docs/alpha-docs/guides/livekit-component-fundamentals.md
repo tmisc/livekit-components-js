@@ -11,7 +11,7 @@ In this guide you will learn:
 The `LiveKitRoom` component is the starting point of your LiveKit app and root of the LiveKit component tree. It provides the room context to all its child components. Like almost all other LiveKit Components it accepts regular HTML elements as well as LiveKit Components as its children. If no children are nested inside it, a default component tree is rendered instead. Learn more in the next chapter.
 
 ```tsx
-import { LiveKitRoom } from '@livekit/components-react';
+import { LiveKitRoom } from 'fork-livekit-components-react';
 import * as React from 'react';
 
 const MyLiveKitApp = () => {
