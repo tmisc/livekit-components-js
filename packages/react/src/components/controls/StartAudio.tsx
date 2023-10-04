@@ -22,7 +22,7 @@ export interface AllowAudioPlaybackProps extends React.ButtonHTMLAttributes<HTML
  * @see Autoplay policy on MDN web docs: {@link https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices#autoplay_policy}
  * @public
  */
-export function StartAudio({ label = 'Allow Audio', ...props }: AllowAudioPlaybackProps) {
+export function StartAudio({ label = '允许音频', ...props }: AllowAudioPlaybackProps) {
   const room = useRoomContext();
   const { mergedProps } = useStartAudio({ room, props });
 
