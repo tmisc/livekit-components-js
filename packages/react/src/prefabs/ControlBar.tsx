@@ -96,7 +96,7 @@ export function ControlBar({ variation, controls, ...props }: ControlBarProps) {
       {visibleControls.microphone && (
         <div className="lk-button-group">
           <TrackToggle source={Track.Source.Microphone} showIcon={showIcon}>
-            {showText && 'Microphone'}
+            {showText && '麦克风'}
           </TrackToggle>
           <div className="lk-button-group-menu">
             <MediaDeviceMenu kind="audioinput" />
@@ -106,7 +106,7 @@ export function ControlBar({ variation, controls, ...props }: ControlBarProps) {
       {visibleControls.camera && (
         <div className="lk-button-group">
           <TrackToggle source={Track.Source.Camera} showIcon={showIcon}>
-            {showText && 'Camera'}
+            {showText && '摄像头'}
           </TrackToggle>
           <div className="lk-button-group-menu">
             <MediaDeviceMenu kind="videoinput" />
@@ -120,22 +120,22 @@ export function ControlBar({ variation, controls, ...props }: ControlBarProps) {
           showIcon={showIcon}
           onChange={onScreenShareChange}
         >
-          {showText && (isScreenShareEnabled ? 'Stop screen share' : 'Share screen')}
+          {showText && (isScreenShareEnabled ? '停止屏幕共享' : '共享屏幕')}
         </TrackToggle>
       )}
       {visibleControls.chat && (
         <ChatToggle>
           {showIcon && <ChatIcon />}
-          {showText && 'Chat'}
+          {showText && '聊天室'}
         </ChatToggle>
       )}
       {visibleControls.leave && (
         <DisconnectButton>
           {showIcon && <LeaveIcon />}
-          {showText && 'Leave'}
+          {showText && '离开'}
         </DisconnectButton>
       )}
-      <StartAudio label="Start Audio" />
+      <StartAudio label="开启音频" />
     </div>
   );
 }
