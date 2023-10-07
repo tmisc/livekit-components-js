@@ -112,10 +112,10 @@ export function Chat({ messageFormatter, messageDecoder, messageEncoder, ...prop
           disabled={isSending}
           ref={inputRef}
           type="text"
-          placeholder="Enter a message..."
+          placeholder="请输入消息..."
         />
         <button type="submit" className="lk-button lk-chat-form-button" disabled={isSending}>
-          Send
+          发送
         </button>
       </form>
     </div>
